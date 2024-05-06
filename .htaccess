@@ -11,6 +11,8 @@ RewriteCond %{HTTP_HOST} ^(www\.)?taylorgibbs\.dev$
 RewriteRule ^i/(.*) http://images.taylorgibbs.dev/$1 [R=301,L] 
 RewriteCond %{HTTP_HOST} ^(www\.)?taylorgibbs\.uk$
 RewriteRule ^i/(.*) http://images.taylorgibbs.uk/$1 [R=301,L] 
+RewriteCond %{HTTP_HOST} ^(www\.)?taylorgibbs\.zip$
+RewriteRule ^i/(.*) http://images.taylorgibbs.zip/$1 [R=301,L] 
 
 ErrorDocument 404 /404.html
 ErrorDocument 403 /403.html
